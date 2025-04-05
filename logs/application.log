@@ -1,0 +1,162 @@
+2025-04-05 22:07:19 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-04-05 22:07:19 [main] INFO  io.lab.imHarish03.DemoApplication - Starting DemoApplication using Java 21.0.6 on DESKTOP-R3S1S4T with PID 31036 (C:\Users\hariharan.r_isteer\Documents\workspace-spring-tool-suite-4-4.28.1.RELEASE\demo\target\classes started by hariharan.r_isteer in C:\Users\hariharan.r_isteer\Documents\workspace-spring-tool-suite-4-4.28.1.RELEASE\demo)
+2025-04-05 22:07:19 [main] INFO  io.lab.imHarish03.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-05 22:07:19 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=96a8963a-de8c-31a3-a46f-87624ef0fcdb
+2025-04-05 22:07:20 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-05 22:07:20 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-05 22:07:20 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-05 22:07:20 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2025-04-05 22:07:20 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-05 22:07:20 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1285 ms
+2025-04-05 22:07:20 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-05 22:07:21 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-05 22:07:21 [main] INFO  io.lab.imHarish03.DemoApplication - Started DemoApplication in 2.302 seconds (JVM running for 8.806)
+2025-04-05 22:34:58 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-04-05 22:34:58 [main] INFO  io.lab.imHarish03.DemoApplication - Starting DemoApplication using Java 21.0.6 on DESKTOP-R3S1S4T with PID 23880 (C:\Users\hariharan.r_isteer\Documents\workspace-spring-tool-suite-4-4.28.1.RELEASE\demo\target\classes started by hariharan.r_isteer in C:\Users\hariharan.r_isteer\Documents\workspace-spring-tool-suite-4-4.28.1.RELEASE\demo)
+2025-04-05 22:34:58 [main] INFO  io.lab.imHarish03.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-05 22:34:58 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=ea2c2287-94c0-30b8-9e15-104ffd342765
+2025-04-05 22:34:59 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-05 22:34:59 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-05 22:34:59 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-05 22:34:59 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2025-04-05 22:34:59 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-05 22:34:59 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 763 ms
+2025-04-05 22:34:59 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-05 22:34:59 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2025-04-05 22:34:59 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-04-05 22:34:59 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-05 22:34:59 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-04-05 22:34:59 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2025-04-05 22:34:59 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-04-05 22:34:59 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-04-05 22:35:08 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-04-05 22:35:08 [main] INFO  io.lab.imHarish03.DemoApplication - Starting DemoApplication using Java 21.0.6 on DESKTOP-R3S1S4T with PID 35304 (C:\Users\hariharan.r_isteer\Documents\workspace-spring-tool-suite-4-4.28.1.RELEASE\demo\target\classes started by hariharan.r_isteer in C:\Users\hariharan.r_isteer\Documents\workspace-spring-tool-suite-4-4.28.1.RELEASE\demo)
+2025-04-05 22:35:08 [main] INFO  io.lab.imHarish03.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-05 22:35:09 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=ea2c2287-94c0-30b8-9e15-104ffd342765
+2025-04-05 22:35:09 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-05 22:35:09 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-05 22:35:09 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-05 22:35:09 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2025-04-05 22:35:09 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-05 22:35:09 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 827 ms
+2025-04-05 22:35:10 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-05 22:35:10 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-05 22:35:10 [main] INFO  io.lab.imHarish03.DemoApplication - Started DemoApplication in 1.533 seconds (JVM running for 2.247)
+2025-04-05 22:35:19 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-05 22:35:19 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-05 22:35:19 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-05 22:35:19 [http-nio-8080-exec-2] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2025-04-05 23:21:46 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-04-05 23:21:46 [main] INFO  io.lab.imHarish03.DemoApplication - Starting DemoApplication using Java 21.0.6 on DESKTOP-R3S1S4T with PID 24132 (C:\Users\hariharan.r_isteer\Documents\workspace-spring-tool-suite-4-4.28.1.RELEASE\demo\target\classes started by hariharan.r_isteer in C:\Users\hariharan.r_isteer\Documents\workspace-spring-tool-suite-4-4.28.1.RELEASE\demo)
+2025-04-05 23:21:46 [main] INFO  io.lab.imHarish03.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-05 23:21:46 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=ea2c2287-94c0-30b8-9e15-104ffd342765
+2025-04-05 23:21:46 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-05 23:21:46 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-05 23:21:46 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-05 23:21:46 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2025-04-05 23:21:46 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-05 23:21:46 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 707 ms
+2025-04-05 23:21:47 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-05 23:21:47 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-05 23:21:47 [main] INFO  io.lab.imHarish03.DemoApplication - Started DemoApplication in 1.333 seconds (JVM running for 2.048)
+2025-04-05 23:22:04 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-05 23:22:04 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-05 23:22:04 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-05 23:22:04 [http-nio-8080-exec-2] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "io.lab.imHarish03.notification.NotificationService.sendNotification(String)" because the return value of "org.springframework.beans.factory.ObjectProvider.getIfAvailable()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "io.lab.imHarish03.notification.NotificationService.sendNotification(String)" because the return value of "org.springframework.beans.factory.ObjectProvider.getIfAvailable()" is null
+	at io.lab.imHarish03.controller.EmployeeController.createEMployee(EmployeeController.java:38) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[tomcat-embed-core-9.0.79.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.29.jar:5.3.29]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[tomcat-embed-core-9.0.79.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.29.jar:5.3.29]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.79.jar:9.0.79]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+2025-04-05 23:22:41 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-04-05 23:22:41 [main] INFO  io.lab.imHarish03.DemoApplication - Starting DemoApplication using Java 21.0.6 on DESKTOP-R3S1S4T with PID 29380 (C:\Users\hariharan.r_isteer\Documents\workspace-spring-tool-suite-4-4.28.1.RELEASE\demo\target\classes started by hariharan.r_isteer in C:\Users\hariharan.r_isteer\Documents\workspace-spring-tool-suite-4-4.28.1.RELEASE\demo)
+2025-04-05 23:22:41 [main] INFO  io.lab.imHarish03.DemoApplication - The following 1 profile is active: "slack"
+2025-04-05 23:22:42 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=3d39806d-7c9a-3078-a2e5-52379a777d68
+2025-04-05 23:22:42 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-05 23:22:42 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-05 23:22:42 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-05 23:22:42 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2025-04-05 23:22:42 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-05 23:22:42 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 722 ms
+2025-04-05 23:22:42 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-05 23:22:42 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-05 23:22:42 [main] INFO  io.lab.imHarish03.DemoApplication - Started DemoApplication in 1.359 seconds (JVM running for 2.046)
+2025-04-05 23:22:45 [http-nio-8080-exec-3] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-05 23:22:45 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-05 23:22:45 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-05 23:25:08 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2025-04-05 23:25:08 [main] INFO  io.lab.imHarish03.DemoApplication - Starting DemoApplication using Java 21.0.6 on DESKTOP-R3S1S4T with PID 6164 (C:\Users\hariharan.r_isteer\Documents\workspace-spring-tool-suite-4-4.28.1.RELEASE\demo\target\classes started by hariharan.r_isteer in C:\Users\hariharan.r_isteer\Documents\workspace-spring-tool-suite-4-4.28.1.RELEASE\demo)
+2025-04-05 23:25:08 [main] INFO  io.lab.imHarish03.DemoApplication - The following 1 profile is active: "slack"
+2025-04-05 23:25:09 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=3d39806d-7c9a-3078-a2e5-52379a777d68
+2025-04-05 23:25:09 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-04-05 23:25:09 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-04-05 23:25:09 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-05 23:25:09 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2025-04-05 23:25:09 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-05 23:25:09 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 693 ms
+2025-04-05 23:25:09 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-04-05 23:25:09 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-05 23:25:09 [main] INFO  io.lab.imHarish03.DemoApplication - Started DemoApplication in 1.316 seconds (JVM running for 1.978)
+2025-04-05 23:25:22 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-05 23:25:22 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-05 23:25:22 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
