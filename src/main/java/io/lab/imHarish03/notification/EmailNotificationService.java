@@ -4,13 +4,10 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 @Service
-@Qualifier("slackService")
-//@Profile("slackService")
-public class SlackNotification implements NotificationService {
-
+@Qualifier("emailService")
+public class EmailNotificationService implements NotificationService {
 	@Override
 	public void sendNotification(String message) {
-		System.out.println("📢 Slack: " + message);
+		System.out.println("Email sent: " + message);
 	}
-
 }
