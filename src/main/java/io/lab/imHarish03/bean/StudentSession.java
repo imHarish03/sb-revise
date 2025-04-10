@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-
+@SessionScope
 public class StudentSession {
 
     private final List<String> enrolledCourses = new ArrayList<>();
