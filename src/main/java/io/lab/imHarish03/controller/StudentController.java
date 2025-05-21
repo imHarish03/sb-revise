@@ -53,4 +53,5 @@ public class StudentController {
     public String getSessionId(HttpSession session) {
         return "Session ID: " + session.getId();
     }
+
 }

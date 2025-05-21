@@ -8,6 +8,16 @@ public class Employee {
 	@NotNull(message = "Name cannot be null")
 	private String name;
 
+	@NotNull(message = "Email cannot be null")
+	private String email;
+
+	public String getEmail() {
+		return email;
+	}
+	public  void setEmail(String email) {
+		this.email = email;
+	}
+
 	public int getId() {
 		return id;
 	}

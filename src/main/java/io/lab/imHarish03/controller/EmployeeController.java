@@ -13,17 +13,17 @@ import org.springframework.web.bind.annotation.RestController;
 import io.lab.imHarish03.exception.EmployeeAlreadyExistsException;
 import io.lab.imHarish03.exception.EmployeeNotFoundException;
 import io.lab.imHarish03.model.Employee;
-import io.lab.imHarish03.notification.NotificationService;
+//import io.lab.imHarish03.notification.NotificationService;
 
 @RestController
 @RequestMapping(value = "/employee")
 public class EmployeeController {
 
-    private final ObjectProvider<NotificationService> notificationProvider;
+  //  private final ObjectProvider<NotificationService> notificationProvider;
 
-    public EmployeeController(@Qualifier("slackService") ObjectProvider<NotificationService> notificationProvider) {
-        this.notificationProvider = notificationProvider;
-    }
+//    public EmployeeController(@Qualifier("slackService") ObjectProvider<NotificationService> notificationProvider) {
+//        this.notificationProvider = notificationProvider;
+//    }
 
     /**
      * Retrieves employee information.
@@ -51,7 +51,7 @@ public class EmployeeController {
             throw new EmployeeAlreadyExistsException("Please provide non existing name");
         }
         // employee added
-        notificationProvider.getIfAvailable().sendNotification("New Employee Added: " + employee.getName());
+        //notificationProvider.getIfAvailable().sendNotification("New Employee Added: " + employee.getName());
         return 1;
     }
 
